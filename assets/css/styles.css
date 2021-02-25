@@ -1,0 +1,50 @@
+.html{
+    overflow-x: hidden;
+}
+.logo{
+    width: 200px;
+}
+.videoHome{
+    border-radius: 2.2rem;
+}
+.services-ca{
+    transform: translateX(40rem);
+    transition: 1000ms;
+    transition-property: transform;
+}
+.rot{
+    transform: rotate(90deg);
+}
+.port{
+    position: relative;
+}
+.p-img1{
+    position: absolute;
+    top : 10px;
+    right: 0px;
+    transform: translate(-80%,0);
+}
+.p-img2{
+    position: absolute;
+    top : 10px;
+    left: 0px;
+    transform: translate(60%,20%) scale(1.25);
+}
+    
+.phone {
+    height: 30rem;
+    border-radius: 1rem;
+    transition: 500ms;
+    transition-property: transform;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .p-img1{
+        transform: translate(-130%,20%);
+    }
+    .p-img2 {
+        transform: translate(100%,20%) scale(1.25);
+    }
+  }
