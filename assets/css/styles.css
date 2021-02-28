@@ -22,13 +22,13 @@
     position: absolute;
     top : 10px;
     right: 0px;
-    transform: translate(-80%,0);
+    transform: translate(0%,40%);
 }
 .p-img2{
     position: absolute;
     top : 10px;
     left: 0px;
-    transform: translate(60%,20%) scale(1.25);
+    transform: translate(60%,15%) scale(1.25);
 }
     
 .phone {
@@ -38,7 +38,16 @@
     transition-property: transform;
 }
 
+.extra {
+    transform: translateY(20%);
+}
 
+/* portfolio styling */
+
+.slide {
+    transition: 500ms;
+    transition-property: transform;
+}
 
 @media screen and (max-width: 992px) {
     .p-img1{
